@@ -13,12 +13,32 @@
         android:text="Tekan Tombol untuk memulai pelacakan.\nService akan berhenti saat Anda Melompat"
         android:textAlignment="center"
         android:textSize="16sp"
-        android:layout_marginBottom="24dp"/>
+        android:layout_marginBottom="16dp"/>
 
+    <!-- Tombol Tugas 1 -->
     <Button
         android:id="@+id/btnStart"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Mulai Lacak Aktivitas" />
+
+    <!-- Tombol Tugas 2 -->
+    <Button
+        android:id="@+id/btnTraining"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#2E7D32"
+        android:text="Mulai Latihan (Target > 2 Lompatan)" />
+
+    <!-- Teks Penampil Hasil Lompatan -->
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:textColor="#2E7D32"
+        android:textSize="20sp"
+        android:textStyle="bold" />
 
 </LinearLayout>
